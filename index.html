@@ -1,0 +1,146 @@
+
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#101820">
+<title>RS TRADERS | Agricultural Machinery Rental</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:Arial,sans-serif;background:#f5f6f7;color:#18212a}
+header{background:#101820;color:white;padding:18px 6%;display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
+.logo{font-size:25px;font-weight:900;letter-spacing:1px}
+.logo span{color:#d6a84f}
+nav a{color:white;text-decoration:none;margin-left:16px;font-size:14px}
+.hero{background:linear-gradient(90deg,rgba(8,18,24,.9),rgba(8,18,24,.45)),url('https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1500&q=85') center/cover;color:white;padding:90px 7%}
+.hero h1{font-size:clamp(34px,6vw,58px);max-width:650px;line-height:1.12}
+.hero p{margin:18px 0;font-size:17px;line-height:1.7;max-width:550px}
+.btn{display:inline-block;padding:13px 22px;border-radius:7px;text-decoration:none;font-weight:bold;margin:5px 5px 5px 0}
+.gold{background:#d6a84f;color:#101820}
+.dark{background:#101820;color:white}
+section{padding:55px 6%}
+.heading{text-align:center;margin-bottom:30px}
+.heading h2{font-size:30px;margin-bottom:10px}
+.heading p{color:#68727c}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+.card{background:white;border-radius:12px;overflow:hidden;box-shadow:0 4px 18px #00000010}
+.card img{width:100%;height:175px;object-fit:cover}
+.card-content{padding:19px}
+.card h3{font-size:20px;margin-bottom:9px}
+.card p{color:#69737c;line-height:1.6;font-size:14px}
+.card a{margin-top:14px}
+.tag{display:inline-block;background:#f2e8d3;color:#72531b;padding:6px 10px;border-radius:20px;font-size:12px;margin-bottom:12px}
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:18px}
+.step{background:white;padding:24px;border-radius:10px;text-align:center}
+.step strong{font-size:25px;color:#c28e30}
+.step h3{margin:10px}
+.step p{font-size:14px;color:#68727c;line-height:1.5}
+.owner{background:#101820;color:white;text-align:center}
+.owner p{color:#d1d6da;line-height:1.7;margin:12px auto;max-width:600px}
+.contact{text-align:center;background:#fff}
+footer{background:#080e13;color:#c4cbd0;text-align:center;padding:25px 12px;font-size:13px;line-height:2}
+@media(max-width:600px){
+header{padding:16px 5%}
+nav{width:100%;display:flex;gap:12px;flex-wrap:wrap}
+nav a{margin:0}
+.hero{padding:70px 6%}
+section{padding:42px 5%}
+}
+</style>
+</head>
+<body>
+
+<header>
+ <div class="logo">RS <span>TRADERS</span></div>
+ <nav>
+  <a href="#home">Home</a>
+  <a href="#machines">Machines</a>
+  <a href="#owners">List Your Machine</a>
+  <a href="#contact">Contact</a>
+ </nav>
+</header>
+
+<div class="hero" id="home">
+ <h1>Agricultural Machinery Rental Made Easy</h1>
+ <p>আপনার এলাকার ট্রাক্টর, হারভেস্টার ও অন্যান্য কৃষি যন্ত্রপাতি ভাড়া খুঁজুন এক জায়গায়।</p>
+ <a class="btn gold" href="#machines">Explore Machines</a>
+ <a class="btn dark" href="https://wa.me/918116157776">Contact Us</a>
+</div>
+
+<section id="machines">
+ <div class="heading">
+  <h2>Our Machine Categories</h2>
+  <p>Find the right agricultural machine for your work.</p>
+ </div>
+
+ <div class="cards">
+  <div class="card">
+   <img src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=700&q=80" alt="Tractor">
+   <div class="card-content">
+    <span class="tag">Agriculture</span>
+    <h3>Tractor Rental</h3>
+    <p>কৃষিকাজ ও জমি প্রস্তুতির জন্য ট্রাক্টর ভাড়ার খোঁজ করুন।</p>
+    <a class="btn dark" href="https://wa.me/918116157776?text=I%20want%20to%20enquire%20about%20Tractor%20Rental">Enquire Now</a>
+   </div>
+  </div>
+
+  <div class="card">
+   <img src="https://images.unsplash.com/photo-1592982537447-6f2a6a0b5a2c?auto=format&fit=crop&w=700&q=80" alt="Harvester">
+   <div class="card-content">
+    <span class="tag">Harvesting</span>
+    <h3>Harvester Rental</h3>
+    <p>ধান কাটার কাজের জন্য হারভেস্টার ভাড়ার যোগাযোগ করুন।</p>
+    <a class="btn dark" href="https://wa.me/918116157776?text=I%20want%20to%20enquire%20about%20Harvester%20Rental">Enquire Now</a>
+   </div>
+  </div>
+
+  <div class="card">
+   <img src="https://images.unsplash.com/photo-1580901368919-7738efb0f87e?auto=format&fit=crop&w=700&q=80" alt="JCB">
+   <div class="card-content">
+    <span class="tag">Construction</span>
+    <h3>JCB Rental</h3>
+    <p>মাটি কাটার ও নির্মাণকাজের মেশিনের জন্য যোগাযোগ করুন।</p>
+    <a class="btn dark" href="https://wa.me/918116157776?text=I%20want%20to%20enquire%20about%20JCB%20Rental">Enquire Now</a>
+   </div>
+  </div>
+ </div>
+</section>
+
+<section style="background:#e9edf0">
+ <div class="heading">
+  <h2>How It Works</h2>
+  <p>মাত্র তিনটি সহজ ধাপে মেশিন ভাড়া নিন।</p>
+ </div>
+ <div class="steps">
+  <div class="step"><strong>01</strong><h3>Choose Machine</h3><p>আপনার প্রয়োজনীয় মেশিন নির্বাচন করুন।</p></div>
+  <div class="step"><strong>02</strong><h3>Contact Us</h3><p>WhatsApp-এ আপনার কাজের বিবরণ জানান।</p></div>
+  <div class="step"><strong>03</strong><h3>Book Machine</h3><p>ভাড়া ও সময় নিশ্চিত করে বুকিং করুন।</p></div>
+ </div>
+</section>
+
+<section class="owner" id="owners">
+ <h2>Own a Tractor or Harvester?</h2>
+ <p>আপনার নিজের মেশিন আছে? RS TRADERS-এর মাধ্যমে আপনার মেশিনের তথ্য জমা দিন। আমরা যোগাযোগ করে পরবর্তী ব্যবস্থা জানাব।</p>
+ <a class="btn gold" href="https://wa.me/918116157776?text=I%20want%20to%20list%20my%20machine%20on%20RS%20TRADERS">List Your Machine</a>
+</section>
+
+<section class="contact" id="contact">
+ <div class="heading">
+  <h2>Contact RS TRADERS</h2>
+  <p>আমাদের সঙ্গে যোগাযোগ করুন।</p>
+ </div>
+ <p><strong>Location:</strong> Erera, Shimulia, Murshidabad, West Bengal</p>
+ <p><strong>WhatsApp:</strong> +91 8116157776</p>
+ <a class="btn gold" href="https://wa.me/918116157776">Chat on WhatsApp</a>
+</section>
+
+<footer>
+ <h3>RS TRADERS</h3>
+ Agricultural Machinery Rental Platform<br>
+ Erera, Shimulia, Murshidabad, West Bengal<br>
+ © 2026 RS TRADERS. All Rights Reserved.
+</footer>
+
+</body>
+</html>
